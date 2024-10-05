@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      main {
+        padding: 20px 50px;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(79, 77, 77);
+        margin-right: 15px;
+      }
+
+      a:hover {
+        text-decoration: underline 1px solid;
+        text-underline-offset: 7px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .nav-left {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo {
+        margin-right: 20px;
+      }
+
+      .display {
+        height: 370px;
+        margin: 25px 0;
+        background-image: url('assets/images/showcase.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 70px;
+      }
+
+      .dis-info {
+        text-align: center;
+      }
+
+      .dis-info p {
+        margin: 17px 0;
+      }
+
+      .btn {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+      }
+
+      .btn:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+      }
+
+
+      .product p {
+        margin: 10px 0;
+      }
+
+      .learn,
+      .learn button {
+        cursor: pointer;
+      }
+
+      .learn button {
+        border: none;
+        background-color: transparent;
+        color: #3486C6;
+        transition: all 200ms ease-in 0s;
+      }
+
+      .learn:hover>button {
+        margin-right: 15px;
+
+      }
+
+      .learn i {
+        color: #3486C6;
+      }
+
+      .x-box {
+        margin: 20px 0;
+        height: 370px;
+        background-image: url('xbox.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+
+  <body>
+
+    <main>
+
+      <header>
+        <div class="nav-left">
+          <div class="logo">
+            <img style="height: 22px;" src="assets/images/logo.png" alt="">
+          </div>
+          <nav>
+            <a href="">Office</a>
+            <a href="">Windows</a>
+            <a href="">Surface</a>
+            <a href="">Xbox</a>
+            <a href="">Deals</a>
+            <a href="">Support</a>
+          </nav>
+        </div>
+
+
+
+
+
+        <div>
+          <i class="fa-solid fa-magnifying-glass" style="margin-right: 10px;"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+      </header>
+
+
+      <section class="display">
+        <div class="dis-info">
+          <h1>Surface Deals</h1>
+          <p>Select Surfaces are on sale now - save while supplies last </p>
+          <button class="btn">
+            Shop Now <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+      </section>
+
+
+
+      <section class="products">
+
+
+        <div class="product">
+          <img src="pc.png" alt="">
+          <h1>New Surface Pro 7</h1>
+          <p>
+            See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play.
+          </p>
+          <a href="" class="learn">
+            <button>
+              LEARN MORE
+            </button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+
+        <div class="product">
+          <img src="assets/images/card2.png" alt="">
+          <h1>New Surface Pro 7</h1>
+          <p>
+            See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play.
+          </p>
+          <a href="" class="learn">
+            <button>
+              LEARN MORE
+            </button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+
+        <div class="product">
+          <img src="assets/images/card3.png" alt="">
+          <h1>New Surface Pro 7</h1>
+          <p>
+            See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play.
+          </p>
+          <a href="" class="learn">
+            <button>
+              LEARN MORE
+            </button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+
+        <div class="product">
+          <img src="assets/images/card4.png" alt="">
+          <h1>New Surface Pro 7</h1>
+          <p>
+            See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play.
+          </p>
+          <a href="" class="learn">
+            <button>
+              LEARN MORE
+            </button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+
+
+
+      </section>
+
+
+      <section class="x-box">
+
+        <div class="x-box-info">
+        game.</p>  <h1>Xbox Game Pass Ultimate</h1>
+          <p>Xbox Game Pass Ultimate Xbox Live Gold and over 100 high-quality console and PC games. Play together with
+            friends and discover your next favorite 
+          <button class="btn">
+            Join Now <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+      </section>
+
+
+    </main>
+
+
+
+
+    <script>
+      const rev = ScrollReveal({
+        delay: 200,
+        distance: '200px'
+      });
+
+
+      rev.reveal('.logo', {
+        origin: 'left',
+      });
+      rev.reveal('nav', {
+        origin: 'top',
+      });
+      rev.reveal('.product', {
+        origin: 'left',
+        interval: 200,
+        rotate: {
+          x: 20,
+          z: 20
+        }
+      });
+
+    </script>
+
+
+
+
+  </body>
+
+</html>
